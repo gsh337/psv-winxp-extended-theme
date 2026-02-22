@@ -1,48 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme format-ver="01.00" package="0">
-
-  <InfomationBarProperty>
-    <m_barColor>FF004ABC</m_barColor>
-    <m_indicatorColor>FFFFFFFF</m_indicatorColor>
-    <m_noticeFontColor>FFFFFFFF</m_noticeFontColor>
-    <m_noticeGlowColor>4AA3D930</m_noticeGlowColor>
-    <m_noNoticeFilePath>no_notice.png</m_noNoticeFilePath>
-    <m_newNoticeFilePath>new_notice.png</m_newNoticeFilePath>
-  </InfomationBarProperty>
-
-  <InfomationProperty>
-    <m_title>
-      <m_default>Windows XP</m_default>
-      <m_param>
-        <m_da>Windows XP</m_da>
-        <m_de>Windows XP</m_de>
-        <m_es>Windows XP</m_es>
-        <m_fi>Windows XP</m_fi>
-        <m_fr>Windows XP</m_fr>
-        <m_it>Windows XP</m_it>
-        <m_nl>Windows XP</m_nl>
-        <m_no>Windows XP</m_no>
-        <m_pl>Windows XP</m_pl>
-        <m_pt>Windows XP</m_pt>
-        <m_ru>Windows XP</m_ru>
-        <m_sv>Windows XP</m_sv>
-      </m_param>
-    </m_title>
-    <m_provider>
-      <m_default>gasha337</m_default>
-      <m_param></m_param>
-    </m_provider>
-    <m_contentVer>01.00</m_contentVer>
-    <m_packageImageFilePath>preview_thumbnail.png</m_packageImageFilePath>
-    <m_homePreviewFilePath>preview_page.png</m_homePreviewFilePath>
-    <m_startPreviewFilePath>preview_lockscreen.png</m_startPreviewFilePath>
-  </InfomationProperty>
-
   <HomeProperty>
-    <m_bgmFilePath>bgm.at9</m_bgmFilePath>
-    <m_basePageFilePath>noselicon.png</m_basePageFilePath>
-    <m_curPageFilePath>selicon.png</m_curPageFilePath>
-
     <m_bgParam>
       <BackgroundParam>
         <m_imageFilePath>bg0.png</m_imageFilePath>
@@ -95,7 +53,7 @@
         <m_waveType>10</m_waveType>
       </BackgroundParam>
     </m_bgParam>
-
+    <m_bgmFilePath>bgm.at9</m_bgmFilePath>
     <m_browser>
       <m_iconFilePath>icon_web.png</m_iconFilePath>
     </m_browser>
@@ -147,15 +105,50 @@
     <m_video>
       <m_iconFilePath>icon_video.png</m_iconFilePath>
     </m_video>
+    <m_basePageFilePath>noselicon.png</m_basePageFilePath>
+    <m_curPageFilePath>selicon.png</m_curPageFilePath>
   </HomeProperty>
-
+  <InfomationBarProperty>
+    <m_barColor>ff004abc</m_barColor>
+    <m_indicatorColor>ffffffff</m_indicatorColor>
+    <m_noticeFontColor>ffffffff</m_noticeFontColor>
+    <m_noticeGlowColor>4aa3d930</m_noticeGlowColor>
+    <m_noNoticeFilePath>no_notice.png</m_noNoticeFilePath>
+    <m_newNoticeFilePath>new_notice.png</m_newNoticeFilePath>
+  </InfomationBarProperty>
+  <InfomationProperty>
+    <m_contentVer>01.10</m_contentVer>
+    <m_homePreviewFilePath>preview_page.png</m_homePreviewFilePath>
+    <m_packageImageFilePath>preview_thumbnail.png</m_packageImageFilePath>
+    <m_provider>
+      <m_default>gasha337</m_default>
+      <m_param></m_param>
+    </m_provider>
+    <m_startPreviewFilePath>preview_lockscreen.png</m_startPreviewFilePath>
+    <m_title>
+      <m_default>Windows XP</m_default>
+      <m_param>
+        <m_da>Windows XP</m_da>
+        <m_de>Windows XP</m_de>
+        <m_es>Windows XP</m_es>
+        <m_fi>Windows XP</m_fi>
+        <m_fr>Windows XP</m_fr>
+        <m_it>Windows XP</m_it>
+        <m_nl>Windows XP</m_nl>
+        <m_no>Windows XP</m_no>
+        <m_pl>Windows XP</m_pl>
+        <m_pt>Windows XP</m_pt>
+        <m_ru>Windows XP</m_ru>
+        <m_sv>Windows XP</m_sv>
+      </m_param>
+    </m_title>
+  </InfomationProperty>
   <StartScreenProperty>
-    <m_filePath>lockpaper.png</m_filePath>
-    <m_dateColor>FFFFFFFF</m_dateColor>
+    <m_dateColor>ffffffff</m_dateColor>
     <m_dateLayout>0</m_dateLayout>
-    <m_notifyBgColor>FFFFFFFF</m_notifyBgColor>
-    <m_notifyBorderColor>FF000000</m_notifyBorderColor>
-    <m_notifyFontColor>FF000000</m_notifyFontColor>
+    <m_filePath>lockpaper.png</m_filePath>
+    <m_notifyBgColor>ffffffff</m_notifyBgColor>
+    <m_notifyBorderColor>ff000000</m_notifyBorderColor>
+    <m_notifyFontColor>ff000000</m_notifyFontColor>
   </StartScreenProperty>
-
 </theme>

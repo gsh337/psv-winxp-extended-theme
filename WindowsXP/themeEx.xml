@@ -1,22 +1,18 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <theme format="kk-ex" version="1.0" unsafe="1">
-
   <m_store>icon_store.png</m_store>
   <m_wkpark>icon_wkpark.png</m_wkpark>
   <m_PCSF00181>icon_PCSF00181.png</m_PCSF00181>
-
   <m_VITASHELL>icon_VITASHELL.png</m_VITASHELL>
   <m_SKGD3PL0Y>icon_SKGD3PL0Y.png</m_SKGD3PL0Y>
   <m_PKGJ00000>icon_PKGJ00000.png</m_PKGJ00000>
   <m_VITADBDLD>icon_VITADBDLD.png</m_VITADBDLD>
   <m_BHBB00001>icon_BHBB00001.png</m_BHBB00001>
-
   <m_PSPEMUCFW>icon_PSPEMUCFW.png</m_PSPEMUCFW>
   <m_XYZZ00002>icon_XYZZ00002.png</m_XYZZ00002>
   <m_GRVA00024>icon_GRVA00024.png</m_GRVA00024>
   <m_NTXS00053>icon_NTXS00053.png</m_NTXS00053>
   <m_DSVITA000>icon_DSVITA000.png</m_DSVITA000>
-
   <m_AUTOPLUG2>icon_AUTOPLUG2.png</m_AUTOPLUG2>
   <m_CLEAN0000>icon_CLEAN0000.png</m_CLEAN0000>
   <m_PSVIDENT0>icon_PSVIDENT0.png</m_PSVIDENT0>
@@ -27,11 +23,9 @@
   <m_RBTR00001>icon_RBTR00001.png</m_RBTR00001>
   <m_SHTD00001>icon_SHTD00001.png</m_SHTD00001>
   <m_NP0APOLLO>icon_NP0APOLLO.png</m_NP0APOLLO>
-
   <m_thmx>icon_thmx.png</m_thmx>
   <m_CTMANAGER>icon_CTMANAGER.png</m_CTMANAGER>
   <m_CSTMLIVEA>icon_CSTMLIVEA.png</m_CSTMLIVEA>
   <m_TEMA00001>icon_TEMA00001.png</m_TEMA00001>
   <m_SHORTCUTS>icon_SHORTCUTS.png</m_SHORTCUTS>
-
 </theme>
