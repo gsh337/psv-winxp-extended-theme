@@ -1,0 +1,57 @@
+name: Auto Release Theme
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'WindowsXP/theme.xml'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract Version from theme.xml
+        id: get_version
+        run: |
+          VERSION=$(grep -oP '(?<=<m_contentVer>).*?(?=</m_contentVer>)' WindowsXP/theme.xml | tr -d '[:space:]')
+          echo "Theme version found: $VERSION"
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Check if Release already exists
+        id: check_release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh release view "v${{ env.VERSION }}" &>/dev/null; then
+            echo "Release v${{ env.VERSION }} already exists. Stopping process."
+            echo "SKIP=true" >> $GITHUB_ENV
+          else
+            echo "SKIP=false" >> $GITHUB_ENV
+          fi
+
+      - name: Package Theme into ZIP
+        if: env.SKIP == 'false'
+        run: |
+          zip -r psv-winxp-extended-theme-v${{ env.VERSION }}.zip WindowsXP/
+
+      - name: Create GitHub Release
+        if: env.SKIP == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f RELEASENOTES.md ]; then
+            gh release create "v${{ env.VERSION }}" psv-winxp-extended-theme-v${{ env.VERSION }}.zip \
+              --title "Version ${{ env.VERSION }}" \
+              --notes-file RELEASENOTES.md
+          else
+            gh release create "v${{ env.VERSION }}" psv-winxp-extended-theme-v${{ env.VERSION }}.zip \
+              --title "Version ${{ env.VERSION }}" \
+              --generate-notes
+          fi
