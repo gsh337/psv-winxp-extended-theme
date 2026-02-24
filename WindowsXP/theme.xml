@@ -10,47 +10,47 @@
       <BackgroundParam>
         <m_imageFilePath>bg1.png</m_imageFilePath>
         <m_thumbnailFilePath>bg1t.png</m_thumbnailFilePath>
-        <m_waveType>25</m_waveType>
+        <m_waveType>26</m_waveType>
       </BackgroundParam>
       <BackgroundParam>
         <m_imageFilePath>bg2.png</m_imageFilePath>
         <m_thumbnailFilePath>bg2t.png</m_thumbnailFilePath>
-        <m_waveType>26</m_waveType>
+        <m_waveType>17</m_waveType>
       </BackgroundParam>
       <BackgroundParam>
         <m_imageFilePath>bg3.png</m_imageFilePath>
         <m_thumbnailFilePath>bg3t.png</m_thumbnailFilePath>
-        <m_waveType>17</m_waveType>
+        <m_waveType>11</m_waveType>
       </BackgroundParam>
       <BackgroundParam>
         <m_imageFilePath>bg4.png</m_imageFilePath>
         <m_thumbnailFilePath>bg4t.png</m_thumbnailFilePath>
-        <m_waveType>11</m_waveType>
+        <m_waveType>12</m_waveType>
       </BackgroundParam>
       <BackgroundParam>
         <m_imageFilePath>bg5.png</m_imageFilePath>
         <m_thumbnailFilePath>bg5t.png</m_thumbnailFilePath>
-        <m_waveType>12</m_waveType>
+        <m_waveType>14</m_waveType>
       </BackgroundParam>
       <BackgroundParam>
         <m_imageFilePath>bg6.png</m_imageFilePath>
         <m_thumbnailFilePath>bg6t.png</m_thumbnailFilePath>
-        <m_waveType>14</m_waveType>
+        <m_waveType>10</m_waveType>
       </BackgroundParam>
       <BackgroundParam>
         <m_imageFilePath>bg7.png</m_imageFilePath>
         <m_thumbnailFilePath>bg7t.png</m_thumbnailFilePath>
-        <m_waveType>10</m_waveType>
+        <m_waveType>6</m_waveType>
       </BackgroundParam>
       <BackgroundParam>
         <m_imageFilePath>bg8.png</m_imageFilePath>
         <m_thumbnailFilePath>bg8t.png</m_thumbnailFilePath>
-        <m_waveType>6</m_waveType>
+        <m_waveType>10</m_waveType>
       </BackgroundParam>
       <BackgroundParam>
         <m_imageFilePath>bg9.png</m_imageFilePath>
         <m_thumbnailFilePath>bg9t.png</m_thumbnailFilePath>
-        <m_waveType>10</m_waveType>
+        <m_waveType>8</m_waveType>
       </BackgroundParam>
     </m_bgParam>
     <m_bgmFilePath>bgm.at9</m_bgmFilePath>
@@ -117,7 +117,7 @@
     <m_newNoticeFilePath>new_notice.png</m_newNoticeFilePath>
   </InfomationBarProperty>
   <InfomationProperty>
-    <m_contentVer>01.10</m_contentVer>
+    <m_contentVer>01.11</m_contentVer>
     <m_homePreviewFilePath>preview_page.png</m_homePreviewFilePath>
     <m_packageImageFilePath>preview_thumbnail.png</m_packageImageFilePath>
     <m_provider>

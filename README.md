@@ -45,6 +45,6 @@ When requesting an icon, please include the application name and its Title ID (e
 This theme was heavily inspired by earlier ports but has been completely rebuilt and remastered. All assets belong to their respective creators and archivers.
 
 * **Icons:** [Windows XP High Resolution Icon Pack](https://github.com/marchmountain/-Windows-XP-High-Resolution-Icon-Pack) by marchmountain.
-* **Wallpapers:** [Windows XP HD Wallpaper Pack](https://www.deviantart.com/windowsaesthetics/art/Windows-XP-HD-Wallpaper-Pack-776806652) by windowsaesthetics & [Windows XP Branded Wallpapers](https://www.deviantart.com/marchmountain/art/Windows-XP-Branded-Wallpapers-917384955) by marchmountain.
+* **Wallpapers:** [Windows XP HD Wallpaper Pack](https://www.deviantart.com/windowsaesthetics/art/Windows-XP-HD-Wallpaper-Pack-776806652) by windowsaesthetics
 * **BGM:** "Velkommen" by Stan LePard, sourced from the [Windows XP Complete Soundtrack Archive](https://archive.org/details/windows-xp-complete-soundtrack).
 * **Inspiration / Original Base:** [Windows XP Theme](https://vstema.com/theme/windows_xp) uploaded by StardustWaffles (provider: beautiful-love-resort).
