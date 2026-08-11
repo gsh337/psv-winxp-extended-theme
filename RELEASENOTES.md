@@ -1,22 +1,21 @@
-# Content Update - v01.11
+# Content Update - v01.12
 
-This update expands homebrew support with 6 new icons and reorganizes visual assets.
+This update adds 5 new homebrew icons and updates the VitaDB/NeoVitaDB downloader icons, including a migration note for the discontinued VitaDB service.
 
 ## Changelog
 
-### New Homebrew Icons (6 Added)
+### New Homebrew Icons (5 Added)
 
-* Retroarch
-* DaedalusX64
-* mGBA
-* Registry Editor
-* EasyVPK
-* batteryFixer
+* [Flycast](https://github.com/Rinnegatamante/flycast-vita)
+* [VitaGrafix Configurator](https://github.com/Kirezar/VitaGrafixConfigurator)
+* [NeoVitaDB Downloader](https://github.com/robin994/NeoVitaDB-Downloader)
+* [Animal Crossing](github.com/Brendonm17/ACGC-Vita-Port)
+* [Aperture:Reconstructed](https://mrkane.itch.io/aperturereconstructed)
 
 ### Visual & Asset Changes
 
-* **Icon Refresh:** Refreshed existing system and extended icons for better visual consistency.
-* **Wallpapers:** Reorganized wallpaper order. Removed the previous second wallpaper, shifted remaining backgrounds, and added a new wallpaper to the end.
+* **VitaDB Downloader / NeoVitaDB:** Swapped icons — VitaDB Downloader now uses its dedicated icon. The original VitaDB service has been discontinued; users should migrate to NeoVitaDB: [Catalog](https://robin994.github.io/NeoVitaDB-Catalog), [Downloader](https://github.com/robin994/NeoVitaDB-Downloader), [Catalog Repository](https://github.com/robin994/NeoVitaDB-Catalog).
+* **Icon Refresh:** Refreshed existing system and extended icons for visual consistency with the expanded palette.
 
 ## Installation Note
 

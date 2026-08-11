@@ -117,7 +117,7 @@
     <m_newNoticeFilePath>new_notice.png</m_newNoticeFilePath>
   </InfomationBarProperty>
   <InfomationProperty>
-    <m_contentVer>01.11</m_contentVer>
+    <m_contentVer>01.12</m_contentVer>
     <m_homePreviewFilePath>preview_page.png</m_homePreviewFilePath>
     <m_packageImageFilePath>preview_thumbnail.png</m_packageImageFilePath>
     <m_provider>
